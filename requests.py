@@ -18,5 +18,4 @@ f.close
 subprocess.run(["git","add","."])
 subprocess.run(["git","commit","-m","\"new html\""])
 subprocess.run(["git","push"])
-subprocess.run("janusu")
 
