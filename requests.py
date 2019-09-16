@@ -16,6 +16,6 @@ f.write(html)
 f.close
 
 subprocess.run(["git","add","."])
-subprocess.run(["git","commit","-m","\"new html\""])
+subprocess.run(["git","commit","-m","\""+input("Commit Message :")+"\""])
 subprocess.run(["git","push"])
 
